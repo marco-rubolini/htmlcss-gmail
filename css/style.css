@@ -1,0 +1,92 @@
+* {
+    /* resetto alcune proprietà di default del browser su tutti gli elementi */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    background: antiquewhite;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+hr {
+    border: 1px solid indianred;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    width: 5%;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.new-message {
+    margin: 10px;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.oggetto-mail {
+    text-transform: uppercase;
+}
+
+.testo-mail {
+    font-style: italic;
+}
+
+.info-mail {
+    border: 1px solid;
+    background-color: white;
+    margin: 2px;
+}
+
+.elenco-mails {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#input-search {
+    width: 300px;
+}
+
+#search {
+    margin-top: 10px;
+}
+
+#posta-in-arrivo {
+    width: 20%;
+    border-bottom: 2px solid black;
+    margin: 15px;
+}
+#notifiche-social {
+    width: 20%;
+    margin: 15px;
+}
+#promozioni {
+    width: 20%;
+    margin: 15px;
+}
+
+#cerchio {
+display: inline-block;
+width: 50px;
+text-align: center;
+border-radius: 50px;
+line-height: 50px;
+background: indianred;
+color: white;
+}
